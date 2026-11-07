@@ -1,0 +1,6 @@
+evaluation,condition,total_records,accuracy,precision,recall,f1_score
+Relevance Classifier,Test dataset,69207.0,0.9991619344863959,1.0,0.9990436617860441,0.9995216021379435
+Mathematical Answer Evaluation,clean,100.0,0.9,0.9,1.0,0.9473684210526315
+Mathematical Answer Evaluation,distracted,100.0,0.82,0.82,1.0,0.9010989010989011
+Mathematical Answer Evaluation,filtered,100.0,0.91,0.91,1.0,0.9528795811518325
+Annotation Audit,Reviewed subset,200.0,1.0,1.0,1.0,1.0

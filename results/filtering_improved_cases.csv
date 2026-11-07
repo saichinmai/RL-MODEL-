@@ -1,0 +1,12 @@
+question_id,condition,input_question,reference_answer,model_answer,removed_sentences,predicted_answer,correct_answer,correct
+GSM-IC_2step.json_89,filtered,"Steve is 5'6"". He grows 6 inches. How tall is Steve in inches?",72,"To solve this problem, we need to convert Steve's initial height from feet and inches to just inches, and then add the 6 inches he grew.
+
+1. Convert 5'6"" to inches:
+   1 foot = 12 inches
+   5 feet = 5 x 12 = 60 inches
+   Add 6 inches: 60 + 6 = 66 inches
+
+2. Add the 6 inches Steve grew:
+   66 inches + 6 inches = 72 inches
+
+Final Answer: 72",Steve's brother is 30 inches taller than Steve.,72.0,72.0,True

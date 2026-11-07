@@ -1,0 +1,14 @@
+question_id,condition,input_question,reference_answer,model_answer,removed_sentences,predicted_answer,correct_answer,correct
+GSM-IC_2step.json_44,filtered,It was time for Kelly to harvest her carrots that she had planted in three different beds. In the first bed she pulled out 55 carrots. In the second bed she pulled out 101 carrots and in the third bed she pulled out 78 carrots. She found that 6 carrots weighed one pound. How many pounds of carrots did Kelly harvest?,39,"To find the total weight of carrots harvested, we need to calculate the total number of carrots and then divide by the weight of 6 carrots.
+
+Total number of carrots = 55 + 101 + 78 = 234
+
+Weight of 6 carrots = 6 pounds
+
+Weight of 1 carrot = 6 pounds / 6 carrots = 1 pound per carrot
+
+Total weight of carrots = Total number of carrots x Weight of 1 carrot
+= 234 carrots x 1 pound/carrot
+= 234 pounds
+
+Final Answer: 234",The average weight of a potato that Kelly's sister harvested is 1/117 pound.,234.0,39.0,False

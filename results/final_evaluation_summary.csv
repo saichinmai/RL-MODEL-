@@ -1,0 +1,4 @@
+condition,total_questions,evaluated_answers,unevaluable_answers,correct_answers,incorrect_answers,accuracy,accuracy_percentage,precision,recall,f1_score
+clean,100,100,0,90,10,0.9,90.0,0.9,1.0,0.9473684210526315
+distracted,100,100,0,82,18,0.82,82.0,0.82,1.0,0.9010989010989011
+filtered,100,100,0,91,9,0.91,91.0,0.91,1.0,0.9528795811518325

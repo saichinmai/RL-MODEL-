@@ -1,0 +1,684 @@
+question_id,condition,input_question,reference_answer,model_answer,removed_sentences,predicted_answer,correct_answer,correct
+GSM-IC_2step.json_1,clean,A magazine costs $3 each. Jewel bought 10 magazines to be sold at $3.50 each. How much will be Jewel gain from selling these?,5,"To find Jewel's gain, we need to calculate the total cost of the magazines and the total revenue from selling them.
+
+Total cost of magazines = Number of magazines x Cost per magazine
+= 10 x $3
+= $30
+
+Total revenue from selling magazines = Number of magazines x Selling price per magazine
+= 10 x $3.50
+= $35
+
+Jewel's gain = Total revenue - Total cost
+= $35 - $30
+= $5
+
+Final Answer: $5",,5.0,5.0,True
+GSM-IC_2step.json_1,distracted,A magazine costs $3 each. Jewel bought 10 magazines to be sold at $3.50 each. Jewel's neighbor bought 1000 newspapers. How much will Jewel gain from selling her magazines?,5,"To find Jewel's gain, we need to calculate the total cost of the magazines and the total revenue from selling them.
+
+Total cost of magazines = Number of magazines x Cost per magazine
+= 10 x $3
+= $30
+
+Total revenue from selling magazines = Number of magazines x Selling price per magazine
+= 10 x $3.50
+= $35
+
+Jewel's gain = Total revenue - Total cost
+= $35 - $30
+= $5
+
+Final Answer: $5",,5.0,5.0,True
+GSM-IC_2step.json_1,filtered,A magazine costs $3 each. Jewel bought 10 magazines to be sold at $3.50 each. How much will Jewel gain from selling her magazines?,5,"To find the gain, we need to calculate the total cost of the magazines and the total revenue from selling them.
+
+Total cost of magazines = Number of magazines x Cost per magazine
+= 10 x $3
+= $30
+
+Total revenue from selling magazines = Number of magazines x Selling price per magazine
+= 10 x $3.50
+= $35
+
+Gain = Total revenue - Total cost
+= $35 - $30
+= $5
+
+Final Answer: $5",Jewel's neighbor bought 1000 newspapers.,5.0,5.0,True
+GSM-IC_2step.json_17,clean,"Gretchen draws caricatures in the park on the weekends.  She charges $20.00 per drawing.  If she sold 24 on Saturday and 16 on Sunday, how much money did she make?",800,"To find the total amount of money Gretchen made, we need to calculate the total number of drawings she sold and multiply it by the price per drawing.
+
+Number of drawings sold on Saturday: 24
+Number of drawings sold on Sunday: 16
+
+Total number of drawings sold: 24 + 16 = 40
+
+Price per drawing: $20.00
+
+Total amount of money made: 40 x $20.00 = $800.00
+
+Final Answer: $800.00",,800.0,800.0,True
+GSM-IC_2step.json_17,distracted,"Gretchen draws caricatures in the park on the weekends. She charges $20.00 per drawing. Gretchen's mother is 20000 years old. If Gretchen sold 24 on Saturday and 16 on Sunday, how much money did she make?",800,"To solve this problem, we need to calculate the total amount of money Gretchen made from selling caricatures.
+
+First, we need to calculate the total number of caricatures sold:
+24 (Saturday) + 16 (Sunday) = 40 caricatures
+
+Next, we multiply the total number of caricatures sold by the price per caricature:
+40 caricatures x $20.00 per caricature = $800.00
+
+Therefore, Gretchen made $800.00.
+
+Final Answer: $800",,800.0,800.0,True
+GSM-IC_2step.json_17,filtered,"Gretchen draws caricatures in the park on the weekends. She charges $20.00 per drawing. If Gretchen sold 24 on Saturday and 16 on Sunday, how much money did she make?",800,"To find the total amount of money Gretchen made, we need to calculate the total number of drawings sold and multiply it by the price per drawing.
+
+Number of drawings sold on Saturday: 24
+Number of drawings sold on Sunday: 16
+
+Total number of drawings sold: 24 + 16 = 40
+
+Price per drawing: $20.00
+
+Total amount of money made: 40 x $20.00 = $800.00
+
+Final Answer: $800.00",Gretchen's mother is 20000 years old.,800.0,800.0,True
+GSM-IC_2step.json_20,clean,James takes 20 units per semester at community college.  If each unit costs $50 how much does he pay for 2 semesters?,2000,"To find the total cost for 2 semesters, we need to calculate the cost for one semester first and then multiply it by 2.
+
+Cost for one semester = Number of units per semester x Cost per unit
+= 20 units x $50/unit
+= $1000
+
+Cost for 2 semesters = Cost for one semester x 2
+= $1000 x 2
+= $2000
+
+Final Answer: $2000",,2000.0,2000.0,True
+GSM-IC_2step.json_20,distracted,James takes 20 units per semester at community college. Jack may be at college for at most 200000 days per month. If each unit costs $50 how much does James pay for 2 semesters?,2000,"To solve this problem, we need to calculate the total cost of James' tuition for 2 semesters.
+
+First, we need to calculate the total number of units James takes in 2 semesters:
+20 units/semester x 2 semesters = 40 units
+
+Next, we need to calculate the total cost of James' tuition:
+40 units x $50/unit = $2000
+
+Therefore, James pays $2000 for 2 semesters.
+
+Final Answer: $2000",,2000.0,2000.0,True
+GSM-IC_2step.json_20,filtered,James takes 20 units per semester at community college. If each unit costs $50 how much does James pay for 2 semesters?,2000,"To find the total cost for 2 semesters, we need to calculate the cost for one semester first and then multiply it by 2.
+
+Cost for one semester = Number of units per semester x Cost per unit
+= 20 units x $50/unit
+= $1000
+
+Cost for 2 semesters = Cost for one semester x 2
+= $1000 x 2
+= $2000
+
+Final Answer: $2000",Jack may be at college for at most 200000 days per month.,2000.0,2000.0,True
+GSM-IC_2step.json_24,clean,"Papi Calot prepared his garden to plant potatoes. He planned to plant 7 rows of 18 plants each. But he still has a bit of room left, so he’s thinking about adding 15 additional potato plants. How many plants does Papi Calot have to buy?",141,"To find the total number of plants Papi Calot needs to buy, we need to calculate the number of plants he will have initially and then add the additional 15 plants.
+
+Initial number of plants = Number of rows x Number of plants per row
+= 7 x 18
+= 126
+
+Total number of plants = Initial number of plants + Additional plants
+= 126 + 15
+= 141
+
+Final Answer: 141",,141.0,141.0,True
+GSM-IC_2step.json_24,distracted,"Papi Calot prepared his garden to plant potatoes. He planned to plant 7 rows of 18 plants each. But he still has a bit of room left, so he’s thinking about adding 15 additional potato plants. The height of Papi Calot's brother is 60 feet. How many plants does Papi Calot have to buy?",141,"To solve this problem, we need to calculate the total number of plants Papi Calot needs to buy.
+
+First, let's calculate the number of plants he already has:
+
+7 rows x 18 plants/row = 126 plants
+
+Then, let's add the additional 15 plants he wants to buy:
+
+126 plants + 15 plants = 141 plants
+
+The height of Papi Calot's brother is not relevant to the problem, as it doesn't affect the number of plants Papi Calot needs to buy.
+
+Final Answer: 141",,141.0,141.0,True
+GSM-IC_2step.json_24,filtered,"Papi Calot prepared his garden to plant potatoes. He planned to plant 7 rows of 18 plants each. But he still has a bit of room left, so he’s thinking about adding 15 additional potato plants. How many plants does Papi Calot have to buy?",141,"To find the total number of plants Papi Calot needs to buy, we need to calculate the number of plants he will have initially and then add the additional 15 plants.
+
+Initial number of plants = Number of rows x Number of plants per row
+= 7 x 18
+= 126
+
+Total number of plants = Initial number of plants + Additional plants
+= 126 + 15
+= 141
+
+Final Answer: 141",The height of Papi Calot's brother is 60 feet.,141.0,141.0,True
+GSM-IC_2step.json_26,clean,Kim plants 80 cherry pits. 25% of them sprout and Kim sells 6 of the saplings. How many cherry saplings does she have left?,14,"To solve this problem, we need to find 25% of 80 and then subtract 6.
+
+25% of 80 = 0.25 x 80 = 20
+
+So, 20 cherry pits sprout.
+
+Now, subtract 6 saplings that Kim sells:
+
+20 - 6 = 14
+
+Final Answer: 14",,14.0,14.0,True
+GSM-IC_2step.json_26,distracted,Kim plants 80 cherry pits. 25% of them sprout and Kim sells 6 of the saplings. Kim's sister has read 100000 books in the past year. How many cherry saplings does Kim have left?,14,"To solve this problem, we need to break it down into steps.
+
+Step 1: Calculate the number of cherry pits that sprout.
+25% of 80 cherry pits sprout, so we multiply 80 by 0.25:
+80 x 0.25 = 20
+
+Step 2: Calculate the number of cherry saplings left after Kim sells 6.
+Kim had 20 saplings and sold 6, so we subtract 6 from 20:
+20 - 6 = 14
+
+Step 3: We don't need to use the information about Kim's sister reading 100000 books, as it's not relevant to the number of cherry saplings.
+
+Final Answer: 14",,14.0,14.0,True
+GSM-IC_2step.json_26,filtered,Kim plants 80 cherry pits. 25% of them sprout and Kim sells 6 of the saplings. How many cherry saplings does Kim have left?,14,"To solve this problem, we need to find 25% of 80 and then subtract 6.
+
+25% of 80 = 0.25 x 80 = 20
+
+So, 20 cherry pits sprout.
+
+Kim sells 6 saplings, so we subtract 6 from 20:
+
+20 - 6 = 14
+
+Therefore, Kim has 14 cherry saplings left.
+
+Final Answer: 14",Kim's sister has read 100000 books in the past year.,14.0,14.0,True
+GSM-IC_2step.json_31,clean,"Gretchen draws caricatures in the park on the weekends.  She charges $20.00 per drawing.  If she sold 24 on Saturday and 16 on Sunday, how much money did she make?",800,"To find the total amount of money Gretchen made, we need to calculate the total number of drawings she sold and multiply it by the price per drawing.
+
+Number of drawings sold on Saturday: 24
+Number of drawings sold on Sunday: 16
+Total number of drawings sold: 24 + 16 = 40
+
+Price per drawing: $20.00
+Total amount of money made: 40 x $20.00 = $800.00
+
+Final Answer: $800.00",,800.0,800.0,True
+GSM-IC_2step.json_31,distracted,"Gretchen draws caricatures in the park on the weekends. She charges $20.00 per drawing. Ideally, Emma would love to sell 10000 drawings per weekend. If Gretchen sold 24 on Saturday and 16 on Sunday, how much money did she make?",800,"To find the total amount of money Gretchen made, we need to calculate the total number of drawings sold and multiply it by the price per drawing.
+
+Number of drawings sold on Saturday: 24
+Number of drawings sold on Sunday: 16
+Total number of drawings sold: 24 + 16 = 40
+
+Price per drawing: $20.00
+Total amount of money made: 40 x $20.00 = $800.00
+
+Final Answer: $800.00",,800.0,800.0,True
+GSM-IC_2step.json_31,filtered,"Gretchen draws caricatures in the park on the weekends. She charges $20.00 per drawing. If Gretchen sold 24 on Saturday and 16 on Sunday, how much money did she make?",800,"To find the total amount of money Gretchen made, we need to calculate the total number of drawings sold and multiply it by the price per drawing.
+
+Number of drawings sold on Saturday: 24
+Number of drawings sold on Sunday: 16
+
+Total number of drawings sold: 24 + 16 = 40
+
+Price per drawing: $20.00
+
+Total amount of money made: 40 x $20.00 = $800.00
+
+Final Answer: $800.00","Ideally, Emma would love to sell 10000 drawings per weekend.",800.0,800.0,True
+GSM-IC_2step.json_37,clean,"Every morning, Jason eats an omelet made using three eggs.  How many eggs will Jason consume in two weeks?",42,"To find the total number of eggs Jason will consume in two weeks, we need to multiply the number of eggs he eats per day by the number of days in two weeks.
+
+There are 7 days in a week, so there are 7 x 2 = 14 days in two weeks.
+
+Jason eats 3 eggs per day, so he will consume 3 x 14 = 42 eggs in two weeks.
+
+Final Answer: 42",,42.0,42.0,True
+GSM-IC_2step.json_37,distracted,"Every morning, Jason eats an omelet made using three eggs. Yesterday, Jason's brother drank 1000 more cups of milks. How many eggs will Jason consume in two weeks?",42,"To solve this problem, we need to determine how many eggs Jason eats in two weeks. 
+
+First, we need to find out how many eggs Jason eats in one day. Since Jason eats an omelet made using three eggs every morning, he eats 3 eggs per day.
+
+Next, we need to find out how many eggs Jason eats in two weeks. There are 7 days in a week, so there are 14 days in two weeks. 
+
+To find the total number of eggs Jason eats in two weeks, we multiply the number of eggs he eats per day by the number of days in two weeks:
+
+3 eggs/day * 14 days = 42 eggs
+
+Final Answer: 42",,42.0,42.0,True
+GSM-IC_2step.json_37,filtered,"Every morning, Jason eats an omelet made using three eggs. How many eggs will Jason consume in two weeks?",42,"To find the total number of eggs Jason will consume in two weeks, we need to multiply the number of eggs he eats per day by the number of days in two weeks.
+
+There are 7 days in a week, so there are 7 x 2 = 14 days in two weeks.
+
+Jason eats 3 eggs per day, so he will consume 3 x 14 = 42 eggs in two weeks.
+
+Final Answer: 42","Yesterday, Jason's brother drank 1000 more cups of milks.",42.0,42.0,True
+GSM-IC_2step.json_39,clean,"Jennifer decides to share her sweets between herself and her 3 friends. She has 212 green sweets, 310 blue sweets and 502 yellow sweets. How many sweets will Jennifer and her friends get each?",256,"To find the total number of sweets, we need to add the number of green, blue, and yellow sweets.
+
+Total sweets = 212 (green) + 310 (blue) + 502 (yellow)
+Total sweets = 1024
+
+Since Jennifer and her 3 friends will be sharing the sweets, there are 4 people in total.
+
+Number of sweets per person = Total sweets / 4
+= 1024 / 4
+= 256
+
+Final Answer: 256",,256.0,256.0,True
+GSM-IC_2step.json_39,distracted,"Jennifer decides to share her sweets between herself and her 3 friends. She has 212 green sweets, 310 blue sweets and 502 yellow sweets. Emma bought 120 bottles of water yesterday. How many sweets will Jennifer and her friends get each?",256,"To solve this problem, we need to find the total number of sweets Jennifer has and then divide it by the number of people (Jennifer and her 3 friends).
+
+Total number of sweets = 212 (green) + 310 (blue) + 502 (yellow)
+= 1024
+
+Number of people = 1 (Jennifer) + 3 (her friends) = 4
+
+To find the number of sweets each person will get, we divide the total number of sweets by the number of people:
+
+1024 ÷ 4 = 256
+
+So, Jennifer and her friends will each get 256 sweets.
+
+Final Answer: 256",,256.0,256.0,True
+GSM-IC_2step.json_39,filtered,"Jennifer decides to share her sweets between herself and her 3 friends. She has 212 green sweets, 310 blue sweets and 502 yellow sweets. How many sweets will Jennifer and her friends get each?",256,"To find the total number of sweets, we need to add the number of green, blue, and yellow sweets.
+
+Total sweets = 212 (green) + 310 (blue) + 502 (yellow)
+Total sweets = 1024
+
+Since Jennifer and her 3 friends will be sharing the sweets, there are 4 people in total.
+
+Number of sweets each person will get = Total sweets / 4
+= 1024 / 4
+= 256
+
+Final Answer: 256",Emma bought 120 bottles of water yesterday.,256.0,256.0,True
+GSM-IC_2step.json_43,clean,Kendra made 4 more than five times as many decorated buttons as Mari. Sue made half as many as Kendra. Mari made 8 buttons. How many did Sue make?,22,"To solve this problem, we need to follow the steps:
+
+1. Find out how many buttons Kendra made:
+Kendra made 5 times as many buttons as Mari, and 4 more than that.
+Since Mari made 8 buttons, Kendra made 5 x 8 = 40 buttons, and then 40 + 4 = 44 buttons.
+
+2. Find out how many buttons Sue made:
+Sue made half as many buttons as Kendra.
+Since Kendra made 44 buttons, Sue made 44 / 2 = 22 buttons.
+
+Final Answer: 22",,22.0,22.0,True
+GSM-IC_2step.json_43,distracted,Kendra made 4 more than five times as many decorated buttons as Mari. Sue made half as many as Kendra. Mari made 8 buttons. There were 200 friends who visited Mari's mother and liked the buttons. How many did Sue make?,22,"To solve this problem, we need to follow the steps:
+
+1. Find out how many buttons Kendra made:
+Kendra made 5 times as many buttons as Mari, and 4 more than that.
+Since Mari made 8 buttons, Kendra made 5 x 8 = 40 buttons, and 4 more than that is 40 + 4 = 44 buttons.
+
+2. Find out how many buttons Sue made:
+Sue made half as many buttons as Kendra.
+Since Kendra made 44 buttons, Sue made 44 / 2 = 22 buttons.
+
+Final Answer: 22",,22.0,22.0,True
+GSM-IC_2step.json_43,filtered,Kendra made 4 more than five times as many decorated buttons as Mari. Sue made half as many as Kendra. Mari made 8 buttons. How many did Sue make?,22,"To solve this problem, we need to follow the steps:
+
+1. Find out how many buttons Kendra made:
+Kendra made 5 times as many buttons as Mari, and 4 more than that.
+Since Mari made 8 buttons, Kendra made 5 x 8 = 40 buttons, and then 40 + 4 = 44 buttons.
+
+2. Find out how many buttons Sue made:
+Sue made half as many buttons as Kendra.
+Since Kendra made 44 buttons, Sue made 44 / 2 = 22 buttons.
+
+Final Answer: 22",There were 200 friends who visited Mari's mother and liked the buttons.,22.0,22.0,True
+GSM-IC_2step.json_44,clean,It was time for Kelly to harvest her carrots that she had planted in three different beds.  In the first bed she pulled out 55 carrots.  In the second bed she pulled out 101 carrots and in the third bed she pulled out 78 carrots.  She found that 6 carrots weighed one pound.  How many pounds of carrots did Kelly harvest?,39,"To find the total weight of carrots harvested, we need to calculate the total number of carrots and then divide by the weight of 6 carrots.
+
+Total number of carrots = 55 + 101 + 78 = 234
+
+Weight of 6 carrots = 6 pounds
+
+Weight of 1 carrot = 6 pounds / 6 carrots = 1 pound per carrot
+
+Total weight of carrots = Total number of carrots x Weight of 1 carrot
+= 234 carrots x 1 pound/carrot
+= 234 pounds
+
+Final Answer: 234",,234.0,39.0,False
+GSM-IC_2step.json_44,distracted,It was time for Kelly to harvest her carrots that she had planted in three different beds. In the first bed she pulled out 55 carrots. In the second bed she pulled out 101 carrots and in the third bed she pulled out 78 carrots. She found that 6 carrots weighed one pound. The average weight of a potato that Kelly's sister harvested is 1/117 pound. How many pounds of carrots did Kelly harvest?,39,"To find the total weight of carrots harvested, we need to calculate the total number of carrots and then divide by the weight of 6 carrots.
+
+Total number of carrots = 55 + 101 + 78 = 234
+
+Weight of 6 carrots = 6 pounds
+
+Weight of 1 carrot = 6 pounds / 6 = 1 pound
+
+Weight of 1 carrot = 1/6 pound
+
+Total weight of carrots = 234 carrots * (1/6) pound/carrot = 39 pounds
+
+Final Answer: 39",,39.0,39.0,True
+GSM-IC_2step.json_44,filtered,It was time for Kelly to harvest her carrots that she had planted in three different beds. In the first bed she pulled out 55 carrots. In the second bed she pulled out 101 carrots and in the third bed she pulled out 78 carrots. She found that 6 carrots weighed one pound. How many pounds of carrots did Kelly harvest?,39,"To find the total weight of carrots harvested, we need to calculate the total number of carrots and then divide by the weight of 6 carrots.
+
+Total number of carrots = 55 + 101 + 78 = 234
+
+Weight of 6 carrots = 6 pounds
+
+Weight of 1 carrot = 6 pounds / 6 carrots = 1 pound per carrot
+
+Total weight of carrots = Total number of carrots x Weight of 1 carrot
+= 234 carrots x 1 pound/carrot
+= 234 pounds
+
+Final Answer: 234",The average weight of a potato that Kelly's sister harvested is 1/117 pound.,234.0,39.0,False
+GSM-IC_2step.json_55,clean,"Salem loves to write poems, and she always stores her poem in a creativity box kept safely in her home library. Last week, she created a poem with 20 stanzas. If each stanza has 10 lines, and each line has 8 words, calculate the total number of words in the poem.",1600,"To calculate the total number of words in the poem, we need to multiply the number of stanzas, lines per stanza, and words per line.
+
+Number of stanzas = 20
+Number of lines per stanza = 10
+Number of words per line = 8
+
+Total number of words = Number of stanzas × Number of lines per stanza × Number of words per line
+= 20 × 10 × 8
+= 1600
+
+Final Answer: 1600",,1600.0,1600.0,True
+GSM-IC_2step.json_55,distracted,"Salem loves to write poems, and she always stores her poem in a creativity box kept safely in her home library. Last week, she created a poem with 20 stanzas. Emma is 20000 years old. If each stanza has 10 lines, and each line has 8 words, calculate the total number of words in the poem.",1600,"To calculate the total number of words in the poem, we need to multiply the number of stanzas, lines per stanza, and words per line.
+
+Number of stanzas = 20
+Number of lines per stanza = 10
+Number of words per line = 8
+
+Total number of words = Number of stanzas x Number of lines per stanza x Number of words per line
+= 20 x 10 x 8
+= 1600
+
+Final Answer: 1600",,1600.0,1600.0,True
+GSM-IC_2step.json_55,filtered,"Salem loves to write poems, and she always stores her poem in a creativity box kept safely in her home library. Last week, she created a poem with 20 stanzas. If each stanza has 10 lines, and each line has 8 words, calculate the total number of words in the poem.",1600,"To calculate the total number of words in the poem, we need to multiply the number of stanzas, lines per stanza, and words per line.
+
+Number of stanzas = 20
+Number of lines per stanza = 10
+Number of words per line = 8
+
+Total number of words = Number of stanzas × Number of lines per stanza × Number of words per line
+= 20 × 10 × 8
+= 1600
+
+Final Answer: 1600",Emma is 20000 years old.,1600.0,1600.0,True
+GSM-IC_2step.json_65,clean,"As soon as you enter the taxi, you pay a ride fee of $2. Michelle rode a taxi from her office to her home, which constitutes 4 miles. If the taxi charge per mile is $2.5, how much did pay Michelle pay in total for her ride?",12,"To find the total cost of Michelle's ride, we need to calculate the cost of the ride and add the initial ride fee.
+
+Cost of ride = Distance x Taxi charge per mile
+= 4 miles x $2.5/mile
+= $10
+
+Total cost = Ride fee + Cost of ride
+= $2 + $10
+= $12
+
+Final Answer: $12",,12.0,12.0,True
+GSM-IC_2step.json_65,distracted,"As soon as you enter the taxi, you pay a ride fee of $2. Michelle rode a taxi from her office to her home, which constitutes 4 miles. Jack walked for 12 miles to see the dentist. If the taxi charge per mile is $2.5, how much did pay Michelle pay in total for her ride?",12,"To find the total cost of Michelle's ride, we need to calculate the distance-based charge and add the initial ride fee.
+
+Distance-based charge: 4 miles x $2.5/mile = $10
+Initial ride fee: $2
+
+Total cost = Distance-based charge + Initial ride fee
+= $10 + $2
+= $12
+
+Final Answer: $12",,12.0,12.0,True
+GSM-IC_2step.json_65,filtered,"As soon as you enter the taxi, you pay a ride fee of $2. Michelle rode a taxi from her office to her home, which constitutes 4 miles. If the taxi charge per mile is $2.5, how much did pay Michelle pay in total for her ride?",12,"To find the total cost of Michelle's ride, we need to calculate the cost of the ride fee and the cost of the distance traveled.
+
+Ride fee: $2
+Distance traveled: 4 miles
+Taxi charge per mile: $2.5
+
+Cost of distance traveled: 4 miles x $2.5/mile = $10
+
+Total cost: Ride fee + Cost of distance traveled = $2 + $10 = $12
+
+Final Answer: $12",Jack walked for 12 miles to see the dentist.,12.0,12.0,True
+GSM-IC_2step.json_68,clean,"A fruit stand is selling apples for $2 each. Emmy has $200 while Gerry has $100. If they want to buy apples, how many apples can Emmy and Gerry buy altogether?",150,"To solve this problem, we need to find out how much money Emmy and Gerry have together, and then divide that amount by the cost of one apple.
+
+Emmy has $200 and Gerry has $100, so together they have:
+$200 + $100 = $300
+
+The cost of one apple is $2. To find out how many apples they can buy, we divide the total amount of money they have by the cost of one apple:
+$300 ÷ $2 = 150
+
+Final Answer: 150",,150.0,150.0,True
+GSM-IC_2step.json_68,distracted,"A fruit stand is selling apples for $2 each. Emmy has $200 while Gerry has $100. The shoe size of Ada is 100. If they want to buy apples, how many apples can Emmy and Gerry buy altogether?",150,"To solve this problem, we need to determine how much money Emmy and Gerry have together and then divide that amount by the cost of one apple.
+
+Emmy has $200 and Gerry has $100, so together they have $200 + $100 = $300.
+
+The cost of one apple is $2. To find out how many apples they can buy, we divide the total amount of money they have ($300) by the cost of one apple ($2):
+
+$300 ÷ $2 = 150
+
+So, Emmy and Gerry can buy 150 apples altogether.
+
+Final Answer: 150",,150.0,150.0,True
+GSM-IC_2step.json_68,filtered,"A fruit stand is selling apples for $2 each. Emmy has $200 while Gerry has $100. If they want to buy apples, how many apples can Emmy and Gerry buy altogether?",150,"To solve this problem, we need to find out how much money Emmy and Gerry have together, and then divide that amount by the cost of one apple.
+
+Emmy has $200 and Gerry has $100, so together they have:
+$200 + $100 = $300
+
+The cost of one apple is $2. To find out how many apples they can buy, we divide the total amount of money they have by the cost of one apple:
+$300 ÷ $2 = 150
+
+Final Answer: 150",The shoe size of Ada is 100.,150.0,150.0,True
+GSM-IC_2step.json_70,clean,"Jeanne wants to ride the Ferris wheel, the roller coaster, and the bumper cars. The Ferris wheel costs 5 tickets, the roller coaster costs 4 tickets and the bumper cars cost 4 tickets. Jeanne has 5 tickets. How many more tickets should Jeanne buy?",8,"To solve this problem, we need to find out how many tickets Jeanne needs in total to ride all three attractions, and then subtract the number of tickets she already has.
+
+Total tickets needed = Ferris wheel tickets + Roller coaster tickets + Bumper cars tickets
+= 5 + 4 + 4
+= 13
+
+Since Jeanne already has 5 tickets, we need to find out how many more tickets she needs to buy.
+
+Additional tickets needed = Total tickets needed - Tickets already owned
+= 13 - 5
+= 8
+
+Therefore, Jeanne needs to buy 8 more tickets.
+
+Final Answer: 8",,8.0,8.0,True
+GSM-IC_2step.json_70,distracted,"Jeanne wants to ride the Ferris wheel, the roller coaster, and the bumper cars. The Ferris wheel costs 5 tickets, the roller coaster costs 4 tickets and the bumper cars cost 4 tickets. Jeanne has 5 tickets. Tom rides 5 kilometers to the bus station every day. How many more tickets should Jeanne buy?",8,"To solve this problem, we need to determine how many tickets Jeanne needs to ride all three attractions and then subtract the number of tickets she already has.
+
+The total number of tickets needed is:
+5 (Ferris wheel) + 4 (roller coaster) + 4 (bumper cars) = 13 tickets
+
+Since Jeanne already has 5 tickets, she needs to buy:
+13 (total tickets needed) - 5 (tickets she has) = 8 more tickets
+
+Now, let's move on to the second part of the problem. We are not asked to solve this part, but rather to provide the answer to the first part.
+
+Final Answer: 8",,8.0,8.0,True
+GSM-IC_2step.json_70,filtered,"Jeanne wants to ride the Ferris wheel, the roller coaster, and the bumper cars. The Ferris wheel costs 5 tickets, the roller coaster costs 4 tickets and the bumper cars cost 4 tickets. Jeanne has 5 tickets. How many more tickets should Jeanne buy?",8,"To solve this problem, we need to find out how many tickets Jeanne needs in total to ride all three attractions, and then subtract the number of tickets she already has.
+
+Total tickets needed = Ferris wheel tickets + Roller coaster tickets + Bumper cars tickets
+= 5 + 4 + 4
+= 13
+
+Since Jeanne already has 5 tickets, we need to find out how many more tickets she needs to buy.
+
+Additional tickets needed = Total tickets needed - Tickets already owned
+= 13 - 5
+= 8
+
+Therefore, Jeanne needs to buy 8 more tickets.
+
+Final Answer: 8",Tom rides 5 kilometers to the bus station every day.,8.0,8.0,True
+GSM-IC_2step.json_73,clean,"Jennifer decides to share her sweets between herself and her 3 friends. She has 212 green sweets, 310 blue sweets and 502 yellow sweets. How many sweets will Jennifer and her friends get each?",256,"To find the total number of sweets, we need to add the number of green, blue, and yellow sweets.
+
+Total sweets = 212 (green) + 310 (blue) + 502 (yellow)
+Total sweets = 1024
+
+Since Jennifer and her 3 friends will be sharing the sweets, there are 4 people in total.
+
+Number of sweets each person will get = Total sweets / 4
+= 1024 / 4
+= 256
+
+Final Answer: 256",,256.0,256.0,True
+GSM-IC_2step.json_73,distracted,"Jennifer decides to share her sweets between herself and her 3 friends. She has 212 green sweets, 310 blue sweets and 502 yellow sweets. Jack has 6 lemons. How many sweets will Jennifer and her friends get each?",256,"To solve this problem, we need to find the total number of sweets Jennifer has, and then divide it by 4 (Jennifer and her 3 friends).
+
+Total number of sweets = 212 (green) + 310 (blue) + 502 (yellow)
+= 1024
+
+Now, divide the total number of sweets by 4:
+
+1024 ÷ 4 = 256
+
+So, Jennifer and her friends will get 256 sweets each.
+
+Final Answer: 256",,256.0,256.0,True
+GSM-IC_2step.json_73,filtered,"Jennifer decides to share her sweets between herself and her 3 friends. She has 212 green sweets, 310 blue sweets and 502 yellow sweets. How many sweets will Jennifer and her friends get each?",256,"To find the total number of sweets, we need to add the number of green, blue, and yellow sweets.
+
+Total sweets = 212 (green) + 310 (blue) + 502 (yellow)
+Total sweets = 1024
+
+Since Jennifer and her 3 friends will be sharing the sweets, there are 4 people in total.
+
+Number of sweets each person will get = Total sweets / 4
+= 1024 / 4
+= 256
+
+Final Answer: 256",Jack has 6 lemons.,256.0,256.0,True
+GSM-IC_2step.json_78,clean,"Charles is moving from Springfield, which has 482,653 people, to Greenville, which has 119,666 fewer people. What is the total population of Springfield and Greenville?","845,640","To find the total population of Springfield and Greenville, we need to add the population of Springfield to the population of Greenville.
+
+Population of Springfield: 482,653
+Population of Greenville: 482,653 - 119,666 = 362,987
+
+Total population = Population of Springfield + Population of Greenville
+= 482,653 + 362,987
+= 845,640
+
+Final Answer: 845,640",,845640.0,845640.0,True
+GSM-IC_2step.json_78,distracted,"Charles is moving from Springfield, which has 482,653 people, to Greenville, which has 119,666 fewer people. Emma is 174285 years old. What is the total population of Springfield and Greenville?","845,640","To solve this problem, we need to find the population of Greenville first, since it's given as a difference from Springfield.
+
+Population of Greenville = Population of Springfield - 119,666
+= 482,653 - 119,666
+= 362,987
+
+Now, we can find the total population of both cities by adding the populations of Springfield and Greenville.
+
+Total population = Population of Springfield + Population of Greenville
+= 482,653 + 362,987
+= 845,640
+
+However, the question also mentions Emma's age, which seems unrelated to the population. We can ignore this information for the purpose of solving the problem.
+
+Final Answer: 845,640",,845640.0,845640.0,True
+GSM-IC_2step.json_78,filtered,"Charles is moving from Springfield, which has 482,653 people, to Greenville, which has 119,666 fewer people. What is the total population of Springfield and Greenville?","845,640","To find the total population of Springfield and Greenville, we need to add the population of both cities.
+
+Population of Springfield = 482,653
+Population of Greenville = 482,653 - 119,666 = 362,987
+
+Total population = Population of Springfield + Population of Greenville
+= 482,653 + 362,987
+= 845,640
+
+Final Answer: 845,640",Emma is 174285 years old.,845640.0,845640.0,True
+GSM-IC_2step.json_80,clean,"Mary has 3 times as much candy as Megan. Mary then adds 10 more pieces of candy to her collection. If Megan has 5 pieces of candy, how many does Mary have in total?",25,"To solve this problem, we need to follow the steps:
+
+1. Find out how many pieces of candy Mary has initially.
+2. Add 10 more pieces to Mary's initial amount.
+
+Step 1: Mary has 3 times as much candy as Megan, and Megan has 5 pieces of candy. So, Mary has 3 x 5 = 15 pieces of candy initially.
+
+Step 2: Mary adds 10 more pieces to her initial amount. So, Mary now has 15 + 10 = 25 pieces of candy.
+
+Final Answer: 25",,25.0,25.0,True
+GSM-IC_2step.json_80,distracted,"Mary has 3 times as much candy as Megan. Mary then adds 10 more pieces of candy to her collection. Mary's brother has 15 more books than Mary. If Megan has 5 pieces of candy, how many does Mary have in total?",25,"To solve this problem, we need to follow the steps:
+
+1. Find out how many pieces of candy Mary has initially.
+Since Mary has 3 times as much candy as Megan, and Megan has 5 pieces of candy, we can multiply Megan's candy by 3 to find Mary's initial candy:
+3 x 5 = 15
+
+2. Add the 10 additional pieces of candy to Mary's initial amount:
+15 + 10 = 25
+
+3. We don't need to find out how many books Mary's brother has, as the question only asks for the total amount of candy Mary has.
+
+Final Answer: 25",,25.0,25.0,True
+GSM-IC_2step.json_80,filtered,"Mary has 3 times as much candy as Megan. Mary then adds 10 more pieces of candy to her collection. If Megan has 5 pieces of candy, how many does Mary have in total?",25,"To solve this problem, we need to follow the steps:
+
+1. Find out how many pieces of candy Mary has initially.
+2. Add 10 more pieces to Mary's initial amount.
+
+Step 1: Mary has 3 times as much candy as Megan, and Megan has 5 pieces of candy. So, Mary has 3 x 5 = 15 pieces of candy initially.
+
+Step 2: Mary adds 10 more pieces to her initial amount. So, Mary now has 15 + 10 = 25 pieces of candy.
+
+Final Answer: 25",Mary's brother has 15 more books than Mary.,25.0,25.0,True
+GSM-IC_2step.json_89,clean,"Steve is 5'6"".  He grows 6 inches.  How tall is he in inches?",72,"To solve this problem, we need to convert Steve's initial height from feet and inches to just inches, and then add the 6 inches he grew.
+
+1. Convert 5'6"" to inches:
+   1 foot = 12 inches
+   5 feet = 5 x 12 = 60 inches
+   Add the 6 inches: 60 + 6 = 66 inches
+
+2. Add the 6 inches he grew:
+   66 inches + 6 inches = 72 inches
+
+Final Answer: 72",,72.0,72.0,True
+GSM-IC_2step.json_89,distracted,"Steve is 5'6"". He grows 6 inches. Steve's brother is 30 inches taller than Steve. How tall is Steve in inches?",72,"To solve this problem, we need to convert Steve's height from feet and inches to inches only.
+
+1 foot = 12 inches
+So, 5 feet = 5 x 12 = 60 inches
+Adding the 6 inches, Steve's height is 60 + 6 = 66 inches.
+
+Now, Steve's brother is 30 inches taller than Steve. So, Steve's brother's height is 66 + 30 = 96 inches.
+
+Final Answer: 96",,96.0,72.0,False
+GSM-IC_2step.json_89,filtered,"Steve is 5'6"". He grows 6 inches. How tall is Steve in inches?",72,"To solve this problem, we need to convert Steve's initial height from feet and inches to just inches, and then add the 6 inches he grew.
+
+1. Convert 5'6"" to inches:
+   1 foot = 12 inches
+   5 feet = 5 x 12 = 60 inches
+   Add 6 inches: 60 + 6 = 66 inches
+
+2. Add the 6 inches Steve grew:
+   66 inches + 6 inches = 72 inches
+
+Final Answer: 72",Steve's brother is 30 inches taller than Steve.,72.0,72.0,True
+GSM-IC_2step.json_99,clean,"Steve is 5'6"".  He grows 6 inches.  How tall is he in inches?",72,"To solve this problem, we need to convert Steve's initial height from feet and inches to just inches.
+
+1 foot = 12 inches
+So, 5 feet = 5 x 12 = 60 inches
+Adding the 6 inches, we get: 60 + 6 = 66 inches
+
+Now, we add the 6 inches he grew: 66 + 6 = 72 inches
+
+Final Answer: 72",,72.0,72.0,True
+GSM-IC_2step.json_99,distracted,"Steve is 5'6"". He grows 6 inches. The height of Steve's neighbor is 10 feet. How tall is Steve in inches?",72,"To solve this problem, we need to convert Steve's height from feet and inches to inches, and then add the 6 inches he grew.
+
+1. Convert Steve's height from feet and inches to inches:
+5 feet = 5 x 12 = 60 inches
+Adding the 6 inches, we get: 60 + 6 = 66 inches
+
+2. Convert the neighbor's height from feet to inches:
+10 feet = 10 x 12 = 120 inches
+
+3. Since the neighbor's height is already in inches, we can directly compare it to Steve's height:
+Steve's height (66 inches) is less than the neighbor's height (120 inches).
+
+Final Answer: 66",,66.0,72.0,False
+GSM-IC_2step.json_99,filtered,"Steve is 5'6"". He grows 6 inches. How tall is Steve in inches?",72,"To solve this problem, we need to convert Steve's initial height from feet and inches to just inches.
+
+1 foot = 12 inches
+So, 5 feet = 5 x 12 = 60 inches
+
+Adding the 6 inches, we get:
+60 + 6 = 66 inches
+
+Final Answer: 66",The height of Steve's neighbor is 10 feet.,66.0,72.0,False
+GSM-IC_2step.json_101,clean,"As soon as you enter the taxi, you pay a ride fee of $2. Michelle rode a taxi from her office to her home, which constitutes 4 miles. If the taxi charge per mile is $2.5, how much did pay Michelle pay in total for her ride?",12,"To find the total cost of Michelle's ride, we need to calculate the cost of the ride fee and the cost of the distance traveled.
+
+Ride fee: $2
+Distance traveled: 4 miles
+Taxi charge per mile: $2.5
+
+Cost of distance traveled: 4 miles x $2.5/mile = $10
+
+Total cost: Ride fee + Cost of distance traveled = $2 + $10 = $12
+
+Final Answer: $12",,12.0,12.0,True
+GSM-IC_2step.json_101,distracted,"As soon as you enter the taxi, you pay a ride fee of $2. Michelle rode a taxi from her office to her home, which constitutes 4 miles. Ada has read 2000 books in the past year. If the taxi charge per mile is $2.5, how much did pay Michelle pay in total for her ride?",12,"To find the total cost of Michelle's ride, we need to calculate the cost of the ride and add the initial $2 fee.
+
+Cost per mile: $2.5
+Distance traveled: 4 miles
+Cost for distance: $2.5 x 4 = $10
+
+Total cost: $2 (initial fee) + $10 (cost for distance) = $12
+
+Final Answer: $12",,12.0,12.0,True
+GSM-IC_2step.json_101,filtered,"As soon as you enter the taxi, you pay a ride fee of $2. Michelle rode a taxi from her office to her home, which constitutes 4 miles. If the taxi charge per mile is $2.5, how much did pay Michelle pay in total for her ride?",12,"To find the total cost of Michelle's ride, we need to calculate the cost of the ride fee and the cost of the distance traveled.
+
+Ride fee: $2
+Distance traveled: 4 miles
+Taxi charge per mile: $2.5
+
+Cost of distance traveled: 4 miles x $2.5/mile = $10
+
+Total cost: Ride fee + Cost of distance traveled = $2 + $10 = $12
+
+Final Answer: $12",Ada has read 2000 books in the past year.,12.0,12.0,True

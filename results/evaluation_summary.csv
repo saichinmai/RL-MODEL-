@@ -1,0 +1,4 @@
+condition,total_questions,correct_answers,accuracy,accuracy_percentage
+clean,20,19,0.95,95.0
+distracted,20,18,0.9,90.0
+filtered,20,18,0.9,90.0
