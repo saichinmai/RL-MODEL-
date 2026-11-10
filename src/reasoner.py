@@ -1,5 +1,7 @@
 
+import os
 import ollama
+
 
 MODEL_NAME = "llama3.2:3b"
 
@@ -9,7 +11,19 @@ class ReasoningModel:
     def __init__(self):
         self.model_name = MODEL_NAME
 
+        # Local Ollama by default.
+        # For remote hosting, set OLLAMA_HOST.
+        host = os.getenv("OLLAMA_HOST")
+
+        if host:
+            self.client = ollama.Client(host=host)
+        else:
+            self.client = ollama.Client()
+
     def answer(self, question):
+
+        if not question.strip():
+            raise ValueError("Please enter a mathematical question.")
 
         prompt = f"""
 You are a mathematical reasoning assistant.
@@ -26,7 +40,7 @@ Question:
 {question}
 """
 
-        response = ollama.chat(
+        response = self.client.chat(
             model=self.model_name,
             messages=[
                 {

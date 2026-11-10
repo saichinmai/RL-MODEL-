@@ -1,5 +1,7 @@
+
+streamlit
 ollama
 numpy
 pandas
 scikit-learn
-joblibpython src/run_final_experiment.py
+joblib
